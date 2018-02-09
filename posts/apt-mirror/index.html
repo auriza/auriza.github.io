@@ -4,22 +4,18 @@
 <head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='Hugo adalah generator situs web statik. Halaman ditulis menggunakan Markdown.
-Inisialisasi Situs Baru hugo new site blog cd blog git init git submodule add https://github.com/MunifTanjim/minimo themes/minimo cp themes/minimo/exampleSite/config.toml . # edit info situs dan penulis editor config.toml Link Akses Publik ln -s public ~/public_html/blog Tulis Post Baru hugo new posts/first-post.md editor content/posts/first-post.md Pastikan header dokumen draft diset false agar terpublikasi.
-Generate Situs Statik hugo -b http://os.apps.cs.ipb.ac.id/~$USER/blog Buka laman di atas untuk melihat situs baru anda.'>
+<meta name='description' content='Install apt-mirror sudo apt update sudo apt install apt-mirror Konfigurasi repo sumber sudo editor /etc/apt/mirror.list ... deb-amd64 http://id.archive.ubuntu.com/ubuntu xenial main restricted universe multiverse deb-amd64 http://id.archive.ubuntu.com/ubuntu xenial-security main restricted universe multiverse deb-amd64 http://id.archive.ubuntu.com/ubuntu xenial-updates main restricted universe multiverse deb-i386 http://id.archive.ubuntu.com/ubuntu xenial main restricted universe multiverse deb-i386 http://id.archive.ubuntu.com/ubuntu xenial-security main restricted universe multiverse deb-i386 http://id.archive.ubuntu.com/ubuntu xenial-updates main restricted universe multiverse clean http://id.archive.ubuntu.com/ubuntu  Jalankan apt-mirror sudo apt-mirror Publikasikan repo via web sudo apt install apache2 sudo ln -s /var/spool/apt-mirror/mirror/archive.'>
 
-<meta property='og:title' content='Hugo Start • e-Notes'>
-<meta property='og:description' content='Hugo adalah generator situs web statik. Halaman ditulis menggunakan Markdown.
-Inisialisasi Situs Baru hugo new site blog cd blog git init git submodule add https://github.com/MunifTanjim/minimo themes/minimo cp themes/minimo/exampleSite/config.toml . # edit info situs dan penulis editor config.toml Link Akses Publik ln -s public ~/public_html/blog Tulis Post Baru hugo new posts/first-post.md editor content/posts/first-post.md Pastikan header dokumen draft diset false agar terpublikasi.
-Generate Situs Statik hugo -b http://os.apps.cs.ipb.ac.id/~$USER/blog Buka laman di atas untuk melihat situs baru anda.'>
-<meta property='og:url' content='http://auriza.github.io/posts/hugo-start/'>
+<meta property='og:title' content='Mirror Repositori Ubuntu • e-Notes'>
+<meta property='og:description' content='Install apt-mirror sudo apt update sudo apt install apt-mirror Konfigurasi repo sumber sudo editor /etc/apt/mirror.list ... deb-amd64 http://id.archive.ubuntu.com/ubuntu xenial main restricted universe multiverse deb-amd64 http://id.archive.ubuntu.com/ubuntu xenial-security main restricted universe multiverse deb-amd64 http://id.archive.ubuntu.com/ubuntu xenial-updates main restricted universe multiverse deb-i386 http://id.archive.ubuntu.com/ubuntu xenial main restricted universe multiverse deb-i386 http://id.archive.ubuntu.com/ubuntu xenial-security main restricted universe multiverse deb-i386 http://id.archive.ubuntu.com/ubuntu xenial-updates main restricted universe multiverse clean http://id.archive.ubuntu.com/ubuntu  Jalankan apt-mirror sudo apt-mirror Publikasikan repo via web sudo apt install apache2 sudo ln -s /var/spool/apt-mirror/mirror/archive.'>
+<meta property='og:url' content='http://auriza.github.io/posts/apt-mirror/'>
 <meta property='og:site_name' content='e-Notes'>
-<meta property='og:type' content='article'><meta property='article:section' content='Posts'><meta property='article:tag' content='blog'><meta property='article:tag' content='hugo'><meta property='article:published_time' content='2018-02-09T21:32:53&#43;07:00'/><meta property='article:modified_time' content='2018-02-09T21:32:53&#43;07:00'/><meta name='twitter:card' content='summary'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts'><meta property='article:tag' content='mirror'><meta property='article:tag' content='repo'><meta property='article:tag' content='ubuntu'><meta property='article:published_time' content='2017-01-21T08:00:00&#43;07:00'/><meta property='article:modified_time' content='2017-01-21T08:00:00&#43;07:00'/><meta name='twitter:card' content='summary'>
 
 <meta name="generator" content="Hugo 0.36" />
 
-  <title>Hugo Start • e-Notes</title>
-  <link rel='canonical' href='http://auriza.github.io/posts/hugo-start/'>
+  <title>Mirror Repositori Ubuntu • e-Notes</title>
+  <link rel='canonical' href='http://auriza.github.io/posts/apt-mirror/'>
   
   
   <link rel='icon' href='/favicon.ico'>
@@ -57,7 +53,7 @@ Generate Situs Statik hugo -b http://os.apps.cs.ipb.ac.id/~$USER/blog Buka laman
   <header class='header entry-header'>
   <div class='container sep-after'>
     <div class='header-info'>
-      <h1 class='title'>Hugo Start</h1>
+      <h1 class='title'>Mirror Repositori Ubuntu</h1>
       
 
     </div>
@@ -72,7 +68,7 @@ Generate Situs Statik hugo -b http://os.apps.cs.ipb.ac.id/~$USER/blog Buka laman
   
 </svg>
 <span class='screen-reader-text'>Posted on </span>
-  <time class='entry-date' datetime='2018-02-09T21:32:53&#43;07:00'>2018, Feb 09</time>
+  <time class='entry-date' datetime='2017-01-21T08:00:00&#43;07:00'>2017, Jan 21</time>
 </span>
 
   
@@ -99,31 +95,48 @@ One min read
   <div class='container entry-content'>
   
 
-<p>Hugo adalah generator situs web statik.
-Halaman ditulis menggunakan Markdown.</p>
+<h2 id="install-apt-mirror">Install apt-mirror</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo apt update
+sudo apt install apt-mirror</code></pre></div>
+<h2 id="konfigurasi-repo-sumber">Konfigurasi repo sumber</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo editor /etc/apt/mirror.list</code></pre></div>
+<pre><code>...
+deb-amd64 http://id.archive.ubuntu.com/ubuntu xenial main restricted universe multiverse
+deb-amd64 http://id.archive.ubuntu.com/ubuntu xenial-security main restricted universe multiverse
+deb-amd64 http://id.archive.ubuntu.com/ubuntu xenial-updates main restricted universe multiverse
 
-<h1 id="inisialisasi-situs-baru">Inisialisasi Situs Baru</h1>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">hugo new site blog
-cd blog
-git init
-git submodule add https://github.com/MunifTanjim/minimo themes/minimo
-cp themes/minimo/exampleSite/config.toml .
-<span style="color:#75715e"># edit info situs dan penulis
-</span><span style="color:#75715e"></span>editor config.toml</code></pre></div>
-<h1 id="link-akses-publik">Link Akses Publik</h1>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">ln -s public ~/public_html/blog</code></pre></div>
-<h1 id="tulis-post-baru">Tulis Post Baru</h1>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">hugo new posts/first-post.md
-editor content/posts/first-post.md</code></pre></div>
-<p>Pastikan <em>header</em> dokumen <code>draft</code> diset <code>false</code> agar terpublikasi.</p>
+deb-i386 http://id.archive.ubuntu.com/ubuntu xenial main restricted universe multiverse
+deb-i386 http://id.archive.ubuntu.com/ubuntu xenial-security main restricted universe multiverse
+deb-i386 http://id.archive.ubuntu.com/ubuntu xenial-updates main restricted universe multiverse
 
-<h1 id="generate-situs-statik">Generate Situs Statik</h1>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">hugo -b http://os.apps.cs.ipb.ac.id/~$USER/blog</code></pre></div>
-<p>Buka laman di atas untuk melihat situs baru anda.</p>
+clean http://id.archive.ubuntu.com/ubuntu
+</code></pre>
 
-<p>Setiap kali menambahkan atau mengubah isi post, jalankan perintah <code>hugo</code> di
-atas untuk meng-generate perubahan isi situs.</p>
+<h2 id="jalankan-apt-mirror">Jalankan apt-mirror</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo apt-mirror</code></pre></div>
+<h2 id="publikasikan-repo-via-web">Publikasikan repo via web</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo apt install apache2
+sudo ln -s /var/spool/apt-mirror/mirror/archive.ubuntu.com/ubuntu/</code></pre></div>
+<h2 id="otomatisasi-update-repo-opsional">Otomatisasi <em>update</em> repo (opsional)</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo editor /etc/cron.d/apt-mirror</code></pre></div>
+<p>Hapus tanda komentar (<code>#</code>) pada baris terakhir untuk menjalankan <code>apt-mirror</code> secara otomatis tiap hari pada pukul 4:00.</p>
 
+<pre><code>0 4 * * *   apt-mirror      /usr/bin/apt-mirror &gt; /var/spool/apt-mirror/var/cron.log
+</code></pre>
+
+<p>Selesai untuk bagian server.</p>
+
+<h2 id="setting-klien">Setting klien</h2>
+
+<p>Pada klien, set sumber repo sebagai berikut (misal, nama <em>host</em> server repo adalah <code>$REPO</code>).</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo editor /etc/apt/sources.list</code></pre></div>
+<pre><code>deb http://$REPO/ubuntu xenial main restricted universe multiverse
+deb http://$REPO/ubuntu xenial-security main restricted universe multiverse
+deb http://$REPO/ubuntu xenial-updates main restricted universe multiverse
+</code></pre>
+
+<p>Tes dengan meng-<em>update</em> repositori.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo apt update</code></pre></div>
 </div>
 
   
@@ -136,7 +149,7 @@ atas untuk meng-generate perubahan isi situs.</p>
   
 </svg>
 </span>
-  <span class='screen-reader-text'>Categories: </span><a class='category' href='/categories/web'>Web</a></div>
+  <span class='screen-reader-text'>Categories: </span><a class='category' href='/categories/linux'>Linux</a></div>
 <div class='tags'>
   <span class='taxonomy-icon'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
@@ -145,7 +158,7 @@ atas untuk meng-generate perubahan isi situs.</p>
   
 </svg>
 </span>
-  <span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/blog'>Blog</a>, <a class='tag' href='/tags/hugo'>Hugo</a></div>
+  <span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/mirror'>Mirror</a>, <a class='tag' href='/tags/repo'>Repo</a>, <a class='tag' href='/tags/ubuntu'>Ubuntu</a></div>
 
   </div>
 </footer>
@@ -154,16 +167,16 @@ atas untuk meng-generate perubahan isi situs.</p>
 </article>
 
 <nav class='entry-nav'>
-  <div class='container'><div class='prev-entry sep-before'>
-      <a href='/posts/apt-mirror/'>
-        <span aria-hidden='true'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  <div class='container'><div class='next-entry sep-before'>
+      <a href='/posts/hugo-start/'>
+        <span class='screen-reader-text'>Next post: </span>Hugo Start<span aria-hidden='true'>Next <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
-  <line x1="20" y1="12" x2="4" y2="12"/>
-  <polyline points="10 18 4 12 10 6"/>
+  <line x1="4" y1="12" x2="20" y2="12"/>
+  <polyline points="14 6 20 12 14 18"/>
   
 </svg>
- Previous</span>
-        <span class='screen-reader-text'>Previous post: </span>Mirror Repositori Ubuntu</a>
+</span>
+      </a>
     </div></div>
 </nav>
 

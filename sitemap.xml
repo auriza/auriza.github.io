@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>http://auriza.github.io/posts/apt-mirror/</loc>
+    <lastmod>2017-01-21T08:00:00+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://auriza.github.io/authors/</loc>
     <priority>0</priority>
   </url>
@@ -30,14 +35,38 @@
   </url>
   
   <url>
+    <loc>http://auriza.github.io/categories/linux/</loc>
+    <lastmod>2017-01-21T08:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://auriza.github.io/tags/mirror/</loc>
+    <lastmod>2017-01-21T08:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://auriza.github.io/posts/</loc>
     <lastmod>2018-02-09T21:32:53+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>http://auriza.github.io/tags/repo/</loc>
+    <lastmod>2017-01-21T08:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://auriza.github.io/tags/</loc>
     <lastmod>2018-02-09T21:32:53+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://auriza.github.io/tags/ubuntu/</loc>
+    <lastmod>2017-01-21T08:00:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   

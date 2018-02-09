@@ -4,22 +4,18 @@
 <head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='Hugo adalah generator situs web statik. Halaman ditulis menggunakan Markdown.
-Inisialisasi Situs Baru hugo new site blog cd blog git init git submodule add https://github.com/MunifTanjim/minimo themes/minimo cp themes/minimo/exampleSite/config.toml . # edit info situs dan penulis editor config.toml Link Akses Publik ln -s public ~/public_html/blog Tulis Post Baru hugo new posts/first-post.md editor content/posts/first-post.md Pastikan header dokumen draft diset false agar terpublikasi.
-Generate Situs Statik hugo -b http://os.apps.cs.ipb.ac.id/~$USER/blog Buka laman di atas untuk melihat situs baru anda.'>
+<meta name='description' content='Tambahkan repo R echo &#34;deb http://cran.rstudio.com/bin/linux/ubuntu xenial/&#34; | sudo tee -a /etc/apt/sources.list gpg --keyserver keyserver.ubuntu.com --recv-key E084DAB9 gpg -a --export E084DAB9 | sudo apt-key add - sudo apt update Install R sudo apt install r-base Install RStudio Server sudo apt install gdebi-core wget https://download2.rstudio.org/rstudio-server-1.1.383-amd64.deb sudo gdebi rstudio-server-1.1.383-amd64.deb RStudio dapat diakses pada laman http://localhost:8787.'>
 
-<meta property='og:title' content='Hugo Start • e-Notes'>
-<meta property='og:description' content='Hugo adalah generator situs web statik. Halaman ditulis menggunakan Markdown.
-Inisialisasi Situs Baru hugo new site blog cd blog git init git submodule add https://github.com/MunifTanjim/minimo themes/minimo cp themes/minimo/exampleSite/config.toml . # edit info situs dan penulis editor config.toml Link Akses Publik ln -s public ~/public_html/blog Tulis Post Baru hugo new posts/first-post.md editor content/posts/first-post.md Pastikan header dokumen draft diset false agar terpublikasi.
-Generate Situs Statik hugo -b http://os.apps.cs.ipb.ac.id/~$USER/blog Buka laman di atas untuk melihat situs baru anda.'>
-<meta property='og:url' content='http://auriza.github.io/posts/hugo-start/'>
+<meta property='og:title' content='Instalasi RStudio Server • e-Notes'>
+<meta property='og:description' content='Tambahkan repo R echo &#34;deb http://cran.rstudio.com/bin/linux/ubuntu xenial/&#34; | sudo tee -a /etc/apt/sources.list gpg --keyserver keyserver.ubuntu.com --recv-key E084DAB9 gpg -a --export E084DAB9 | sudo apt-key add - sudo apt update Install R sudo apt install r-base Install RStudio Server sudo apt install gdebi-core wget https://download2.rstudio.org/rstudio-server-1.1.383-amd64.deb sudo gdebi rstudio-server-1.1.383-amd64.deb RStudio dapat diakses pada laman http://localhost:8787.'>
+<meta property='og:url' content='http://auriza.github.io/posts/rstudio-server/'>
 <meta property='og:site_name' content='e-Notes'>
-<meta property='og:type' content='article'><meta property='article:section' content='Posts'><meta property='article:tag' content='blog'><meta property='article:tag' content='hugo'><meta property='article:published_time' content='2018-02-09T21:32:53&#43;07:00'/><meta property='article:modified_time' content='2018-02-09T21:32:53&#43;07:00'/><meta name='twitter:card' content='summary'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts'><meta property='article:tag' content='rstudio'><meta property='article:tag' content='server'><meta property='article:tag' content='ubuntu'><meta property='article:published_time' content='2017-11-03T08:00:00&#43;07:00'/><meta property='article:modified_time' content='2017-11-03T08:00:00&#43;07:00'/><meta name='twitter:card' content='summary'>
 
 <meta name="generator" content="Hugo 0.36" />
 
-  <title>Hugo Start • e-Notes</title>
-  <link rel='canonical' href='http://auriza.github.io/posts/hugo-start/'>
+  <title>Instalasi RStudio Server • e-Notes</title>
+  <link rel='canonical' href='http://auriza.github.io/posts/rstudio-server/'>
   
   
   <link rel='icon' href='/favicon.ico'>
@@ -57,7 +53,7 @@ Generate Situs Statik hugo -b http://os.apps.cs.ipb.ac.id/~$USER/blog Buka laman
   <header class='header entry-header'>
   <div class='container sep-after'>
     <div class='header-info'>
-      <h1 class='title'>Hugo Start</h1>
+      <h1 class='title'>Instalasi RStudio Server</h1>
       
 
     </div>
@@ -72,7 +68,7 @@ Generate Situs Statik hugo -b http://os.apps.cs.ipb.ac.id/~$USER/blog Buka laman
   
 </svg>
 <span class='screen-reader-text'>Posted on </span>
-  <time class='entry-date' datetime='2018-02-09T21:32:53&#43;07:00'>2018, Feb 09</time>
+  <time class='entry-date' datetime='2017-11-03T08:00:00&#43;07:00'>2017, Nov 03</time>
 </span>
 
   
@@ -99,30 +95,18 @@ One min read
   <div class='container entry-content'>
   
 
-<p>Hugo adalah generator situs web statik.
-Halaman ditulis menggunakan Markdown.</p>
-
-<h1 id="inisialisasi-situs-baru">Inisialisasi Situs Baru</h1>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">hugo new site blog
-cd blog
-git init
-git submodule add https://github.com/MunifTanjim/minimo themes/minimo
-cp themes/minimo/exampleSite/config.toml .
-<span style="color:#75715e"># edit info situs dan penulis
-</span><span style="color:#75715e"></span>editor config.toml</code></pre></div>
-<h1 id="link-akses-publik">Link Akses Publik</h1>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">ln -s public ~/public_html/blog</code></pre></div>
-<h1 id="tulis-post-baru">Tulis Post Baru</h1>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">hugo new posts/first-post.md
-editor content/posts/first-post.md</code></pre></div>
-<p>Pastikan <em>header</em> dokumen <code>draft</code> diset <code>false</code> agar terpublikasi.</p>
-
-<h1 id="generate-situs-statik">Generate Situs Statik</h1>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">hugo -b http://os.apps.cs.ipb.ac.id/~$USER/blog</code></pre></div>
-<p>Buka laman di atas untuk melihat situs baru anda.</p>
-
-<p>Setiap kali menambahkan atau mengubah isi post, jalankan perintah <code>hugo</code> di
-atas untuk meng-generate perubahan isi situs.</p>
+<h2 id="tambahkan-repo-r">Tambahkan repo R</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">echo <span style="color:#e6db74">&#34;deb http://cran.rstudio.com/bin/linux/ubuntu xenial/&#34;</span> | sudo tee -a /etc/apt/sources.list
+gpg --keyserver keyserver.ubuntu.com --recv-key E084DAB9
+gpg -a --export E084DAB9 | sudo apt-key add -
+sudo apt update</code></pre></div>
+<h2 id="install-r">Install R</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo apt install r-base</code></pre></div>
+<h2 id="install-rstudio-server">Install RStudio Server</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">sudo apt install gdebi-core
+wget https://download2.rstudio.org/rstudio-server-1.1.383-amd64.deb
+sudo gdebi rstudio-server-1.1.383-amd64.deb</code></pre></div>
+<p>RStudio dapat diakses pada laman <a href="http://localhost:8787" target="_blank">http://localhost:8787</a>.</p>
 
 </div>
 
@@ -136,7 +120,7 @@ atas untuk meng-generate perubahan isi situs.</p>
   
 </svg>
 </span>
-  <span class='screen-reader-text'>Categories: </span><a class='category' href='/categories/web'>Web</a></div>
+  <span class='screen-reader-text'>Categories: </span><a class='category' href='/categories/linux'>Linux</a></div>
 <div class='tags'>
   <span class='taxonomy-icon'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
@@ -145,7 +129,7 @@ atas untuk meng-generate perubahan isi situs.</p>
   
 </svg>
 </span>
-  <span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/blog'>Blog</a>, <a class='tag' href='/tags/hugo'>Hugo</a></div>
+  <span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/rstudio'>Rstudio</a>, <a class='tag' href='/tags/server'>Server</a>, <a class='tag' href='/tags/ubuntu'>Ubuntu</a></div>
 
   </div>
 </footer>
@@ -155,7 +139,7 @@ atas untuk meng-generate perubahan isi situs.</p>
 
 <nav class='entry-nav'>
   <div class='container'><div class='prev-entry sep-before'>
-      <a href='/posts/rstudio-server/'>
+      <a href='/posts/apt-mirror/'>
         <span aria-hidden='true'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
   <line x1="20" y1="12" x2="4" y2="12"/>
@@ -163,7 +147,17 @@ atas untuk meng-generate perubahan isi situs.</p>
   
 </svg>
  Previous</span>
-        <span class='screen-reader-text'>Previous post: </span>Instalasi RStudio Server</a>
+        <span class='screen-reader-text'>Previous post: </span>Mirror Repositori Ubuntu</a>
+    </div><div class='next-entry sep-before'>
+      <a href='/posts/hugo-start/'>
+        <span class='screen-reader-text'>Next post: </span>Hugo Start<span aria-hidden='true'>Next <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <line x1="4" y1="12" x2="20" y2="12"/>
+  <polyline points="14 6 20 12 14 18"/>
+  
+</svg>
+</span>
+      </a>
     </div></div>
 </nav>
 

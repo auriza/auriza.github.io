@@ -3,98 +3,109 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://auriza.github.io/posts/hugo-start/</loc>
+    <loc>https://auriza.github.io/posts/hugo-start/</loc>
     <lastmod>2018-02-09T21:32:53+07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://auriza.github.io/posts/rstudio-server/</loc>
+    <loc>https://auriza.github.io/posts/rstudio-server/</loc>
     <lastmod>2017-11-03T08:00:00+07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://auriza.github.io/posts/apt-mirror/</loc>
+    <loc>https://auriza.github.io/posts/apt-mirror/</loc>
     <lastmod>2017-01-21T08:00:00+07:00</lastmod>
   </url>
   
   <url>
-    <loc>http://auriza.github.io/authors/</loc>
+    <loc>https://auriza.github.io/posts/jekyll-quick-start/</loc>
+    <lastmod>2017-01-12T08:00:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://auriza.github.io/authors/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://auriza.github.io/tags/blog/</loc>
+    <loc>https://auriza.github.io/tags/blog/</loc>
     <lastmod>2018-02-09T21:32:53+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://auriza.github.io/categories/</loc>
+    <loc>https://auriza.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://auriza.github.io/tags/hugo/</loc>
+    <loc>https://auriza.github.io/tags/hugo/</loc>
     <lastmod>2018-02-09T21:32:53+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://auriza.github.io/categories/linux/</loc>
+    <loc>https://auriza.github.io/tags/jekyll/</loc>
+    <lastmod>2017-01-12T08:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://auriza.github.io/categories/linux/</loc>
     <lastmod>2017-11-03T08:00:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://auriza.github.io/tags/mirror/</loc>
+    <loc>https://auriza.github.io/tags/mirror/</loc>
     <lastmod>2017-01-21T08:00:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://auriza.github.io/posts/</loc>
+    <loc>https://auriza.github.io/posts/</loc>
     <lastmod>2018-02-09T21:32:53+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://auriza.github.io/tags/repo/</loc>
+    <loc>https://auriza.github.io/tags/repo/</loc>
     <lastmod>2017-01-21T08:00:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://auriza.github.io/tags/rstudio/</loc>
+    <loc>https://auriza.github.io/tags/rstudio/</loc>
     <lastmod>2017-11-03T08:00:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://auriza.github.io/tags/server/</loc>
+    <loc>https://auriza.github.io/tags/server/</loc>
     <lastmod>2017-11-03T08:00:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://auriza.github.io/tags/</loc>
+    <loc>https://auriza.github.io/tags/</loc>
     <lastmod>2018-02-09T21:32:53+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://auriza.github.io/tags/ubuntu/</loc>
+    <loc>https://auriza.github.io/tags/ubuntu/</loc>
     <lastmod>2017-11-03T08:00:00+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://auriza.github.io/categories/web/</loc>
+    <loc>https://auriza.github.io/categories/web/</loc>
     <lastmod>2018-02-09T21:32:53+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://auriza.github.io/</loc>
+    <loc>https://auriza.github.io/</loc>
     <lastmod>2018-02-09T21:32:53+07:00</lastmod>
     <priority>0</priority>
   </url>

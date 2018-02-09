@@ -2,23 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on e-Notes</title>
-    <link>http://auriza.github.io/tags/blog/</link>
+    <link>https://auriza.github.io/tags/blog/</link>
     <description>Recent content in Blog on e-Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 09 Feb 2018 21:32:53 +0700</lastBuildDate>
     
-	<atom:link href="http://auriza.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://auriza.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo Start</title>
-      <link>http://auriza.github.io/posts/hugo-start/</link>
+      <link>https://auriza.github.io/posts/hugo-start/</link>
       <pubDate>Fri, 09 Feb 2018 21:32:53 +0700</pubDate>
       
-      <guid>http://auriza.github.io/posts/hugo-start/</guid>
+      <guid>https://auriza.github.io/posts/hugo-start/</guid>
       <description>Hugo adalah generator situs web statik. Halaman ditulis menggunakan Markdown.
 Inisialisasi Situs Baru hugo new site blog cd blog git init git submodule add https://github.com/MunifTanjim/minimo themes/minimo cp themes/minimo/exampleSite/config.toml . # edit info situs dan penulis editor config.toml Link Akses Publik ln -s public ~/public_html/blog Tulis Post Baru hugo new posts/first-post.md editor content/posts/first-post.md Pastikan header dokumen draft diset false agar terpublikasi.
 Generate Situs Statik hugo -b http://os.apps.cs.ipb.ac.id/~$USER/blog Buka laman di atas untuk melihat situs baru anda.</description>
+    </item>
+    
+    <item>
+      <title>Jekyll Quick Start</title>
+      <link>https://auriza.github.io/posts/jekyll-quick-start/</link>
+      <pubDate>Thu, 12 Jan 2017 08:00:00 +0700</pubDate>
+      
+      <guid>https://auriza.github.io/posts/jekyll-quick-start/</guid>
+      <description>Instal Jekyll sudo apt install ruby-full sudo gem install jekyll Buat situs baru jekyll new blog cd blog bundle exec jekyll serve Akses blog baru kamu di http://localhost:4000.
+Buat postingan baru cat &amp;gt; _posts/YYYY-MM-DD-title-of-post.md &amp;lt;&amp;lt; EOF --- layout: post title: &amp;#34;Jekyll Quick Start&amp;#34; tags: jekyll, markdown, debian --- ## Instal Jekyll ... EOF Server Jekyll secara otomatis akan memantau perubahan file dan memperbarui isi situs. Muat ulang halaman http://localhost:4000 untuk melihat postingan baru kamu.</description>
     </item>
     
   </channel>

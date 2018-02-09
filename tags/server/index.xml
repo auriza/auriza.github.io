@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Server on e-Notes</title>
-    <link>http://auriza.github.io/tags/server/</link>
+    <link>https://auriza.github.io/tags/server/</link>
     <description>Recent content in Server on e-Notes</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 03 Nov 2017 08:00:00 +0700</lastBuildDate>
     
-	<atom:link href="http://auriza.github.io/tags/server/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://auriza.github.io/tags/server/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Instalasi RStudio Server</title>
-      <link>http://auriza.github.io/posts/rstudio-server/</link>
+      <link>https://auriza.github.io/posts/rstudio-server/</link>
       <pubDate>Fri, 03 Nov 2017 08:00:00 +0700</pubDate>
       
-      <guid>http://auriza.github.io/posts/rstudio-server/</guid>
+      <guid>https://auriza.github.io/posts/rstudio-server/</guid>
       <description>Tambahkan repo R echo &amp;#34;deb http://cran.rstudio.com/bin/linux/ubuntu xenial/&amp;#34; | sudo tee -a /etc/apt/sources.list gpg --keyserver keyserver.ubuntu.com --recv-key E084DAB9 gpg -a --export E084DAB9 | sudo apt-key add - sudo apt update Install R sudo apt install r-base Install RStudio Server sudo apt install gdebi-core wget https://download2.rstudio.org/rstudio-server-1.1.383-amd64.deb sudo gdebi rstudio-server-1.1.383-amd64.deb RStudio dapat diakses pada laman http://localhost:8787.</description>
     </item>
     

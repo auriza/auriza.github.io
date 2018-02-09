@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jekyll on e-Notes</title>
+    <link>https://auriza.github.io/tags/jekyll/</link>
+    <description>Recent content in Jekyll on e-Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 12 Jan 2017 08:00:00 +0700</lastBuildDate>
+    
+	<atom:link href="https://auriza.github.io/tags/jekyll/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jekyll Quick Start</title>
+      <link>https://auriza.github.io/posts/jekyll-quick-start/</link>
+      <pubDate>Thu, 12 Jan 2017 08:00:00 +0700</pubDate>
+      
+      <guid>https://auriza.github.io/posts/jekyll-quick-start/</guid>
+      <description>Instal Jekyll sudo apt install ruby-full sudo gem install jekyll Buat situs baru jekyll new blog cd blog bundle exec jekyll serve Akses blog baru kamu di http://localhost:4000.
+Buat postingan baru cat &amp;gt; _posts/YYYY-MM-DD-title-of-post.md &amp;lt;&amp;lt; EOF --- layout: post title: &amp;#34;Jekyll Quick Start&amp;#34; tags: jekyll, markdown, debian --- ## Instal Jekyll ... EOF Server Jekyll secara otomatis akan memantau perubahan file dan memperbarui isi situs. Muat ulang halaman http://localhost:4000 untuk melihat postingan baru kamu.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on e-Notes</title>
+    <link>http://auriza.github.io/categories/web/</link>
+    <description>Recent content in Web on e-Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 09 Feb 2018 21:32:53 +0700</lastBuildDate>
+    
+	<atom:link href="http://auriza.github.io/categories/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo Start</title>
+      <link>http://auriza.github.io/posts/hugo-start/</link>
+      <pubDate>Fri, 09 Feb 2018 21:32:53 +0700</pubDate>
+      
+      <guid>http://auriza.github.io/posts/hugo-start/</guid>
+      <description>Hugo adalah generator situs web statik. Halaman ditulis menggunakan Markdown.
+Inisialisasi Situs Baru hugo new site blog cd blog git init git submodule add https://github.com/MunifTanjim/minimo themes/minimo cp themes/minimo/exampleSite/config.toml . # edit info situs dan penulis editor config.toml Link Akses Publik ln -s public ~/public_html/blog Tulis Post Baru hugo new posts/first-post.md editor content/posts/first-post.md Pastikan header dokumen draft diset false agar terpublikasi.
+Generate Situs Statik hugo -b http://os.apps.cs.ipb.ac.id/~$USER/blog Buka laman di atas untuk melihat situs baru anda.</description>
+    </item>
+    
+  </channel>
+</rss>

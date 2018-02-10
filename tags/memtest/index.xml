@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Memtest on e-Notes</title>
+    <link>https://auriza.github.io/tags/memtest/</link>
+    <description>Recent content in Memtest on e-Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 31 Mar 2017 14:04:00 +0700</lastBuildDate>
+    
+	<atom:link href="https://auriza.github.io/tags/memtest/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bad RAM</title>
+      <link>https://auriza.github.io/posts/badram/</link>
+      <pubDate>Fri, 31 Mar 2017 14:04:00 +0700</pubDate>
+      
+      <guid>https://auriza.github.io/posts/badram/</guid>
+      <description>Dua bulan terakhir, Firefox sering crash jika tab yang terbuka sudah agak banyak. Saya cek di internet tapi tidak menemukan kasus serupa. Kemarin lusa, kernel Linux tiba-tiba hang saat memutar video. Dari sini, mungkin kesalahan bukan pada software, tetapi pada hardware, yaitu RAM.
+Saya cek RAM dengan Memtest86+, ternyata alamat 0x3fad8e08 bermasalah. Sebabnya karena cuma satu bit saja yang error (misal dari 1111 berubah menjadi 1101). Jadi saat pemakaian RAM melebihi 1 GB, maka alamat ini akan terpakai dan software menjadi tidak stabil.</description>
+    </item>
+    
+  </channel>
+</rss>

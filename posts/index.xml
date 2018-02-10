@@ -5,7 +5,7 @@
     <link>https://auriza.github.io/posts/</link>
     <description>Recent content in Posts on e-Notes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 09 Feb 2018 21:32:53 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 14 Nov 2017 15:50:00 +0700</lastBuildDate>
     
 	<atom:link href="https://auriza.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +13,7 @@
     <item>
       <title>Hugo Start</title>
       <link>https://auriza.github.io/posts/hugo-start/</link>
-      <pubDate>Fri, 09 Feb 2018 21:32:53 +0700</pubDate>
+      <pubDate>Tue, 14 Nov 2017 15:50:00 +0700</pubDate>
       
       <guid>https://auriza.github.io/posts/hugo-start/</guid>
       <description>Hugo adalah generator situs web statik. Halaman ditulis menggunakan Markdown.
@@ -28,6 +28,16 @@ Generate Situs Statik hugo -b http://os.apps.cs.ipb.ac.id/~$USER/blog Buka laman
       
       <guid>https://auriza.github.io/posts/rstudio-server/</guid>
       <description>Tambahkan repo R echo &amp;#34;deb http://cran.rstudio.com/bin/linux/ubuntu xenial/&amp;#34; | sudo tee -a /etc/apt/sources.list gpg --keyserver keyserver.ubuntu.com --recv-key E084DAB9 gpg -a --export E084DAB9 | sudo apt-key add - sudo apt update Install R sudo apt install r-base Install RStudio Server sudo apt install gdebi-core wget https://download2.rstudio.org/rstudio-server-1.1.383-amd64.deb sudo gdebi rstudio-server-1.1.383-amd64.deb RStudio dapat diakses pada laman http://localhost:8787.</description>
+    </item>
+    
+    <item>
+      <title>Bad RAM</title>
+      <link>https://auriza.github.io/posts/badram/</link>
+      <pubDate>Fri, 31 Mar 2017 14:04:00 +0700</pubDate>
+      
+      <guid>https://auriza.github.io/posts/badram/</guid>
+      <description>Dua bulan terakhir, Firefox sering crash jika tab yang terbuka sudah agak banyak. Saya cek di internet tapi tidak menemukan kasus serupa. Kemarin lusa, kernel Linux tiba-tiba hang saat memutar video. Dari sini, mungkin kesalahan bukan pada software, tetapi pada hardware, yaitu RAM.
+Saya cek RAM dengan Memtest86+, ternyata alamat 0x3fad8e08 bermasalah. Sebabnya karena cuma satu bit saja yang error (misal dari 1111 berubah menjadi 1101). Jadi saat pemakaian RAM melebihi 1 GB, maka alamat ini akan terpakai dan software menjadi tidak stabil.</description>
     </item>
     
     <item>

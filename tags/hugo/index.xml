@@ -5,7 +5,7 @@
     <link>https://auriza.github.io/tags/hugo/</link>
     <description>Recent content in Hugo on e-Notes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 09 Feb 2018 21:32:53 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 14 Nov 2017 15:50:00 +0700</lastBuildDate>
     
 	<atom:link href="https://auriza.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +13,7 @@
     <item>
       <title>Hugo Start</title>
       <link>https://auriza.github.io/posts/hugo-start/</link>
-      <pubDate>Fri, 09 Feb 2018 21:32:53 +0700</pubDate>
+      <pubDate>Tue, 14 Nov 2017 15:50:00 +0700</pubDate>
       
       <guid>https://auriza.github.io/posts/hugo-start/</guid>
       <description>Hugo adalah generator situs web statik. Halaman ditulis menggunakan Markdown.

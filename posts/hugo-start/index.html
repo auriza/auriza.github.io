@@ -4,14 +4,12 @@
 <head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='Hugo adalah generator situs web statik. Halaman ditulis menggunakan Markdown.
-Inisialisasi Situs Baru hugo new site blog cd blog git init git submodule add https://github.com/MunifTanjim/minimo themes/minimo cp themes/minimo/exampleSite/config.toml . # edit info situs dan penulis editor config.toml Link Akses Publik ln -s public ~/public_html/blog Tulis Post Baru hugo new posts/first-post.md editor content/posts/first-post.md Pastikan header dokumen draft diset false agar terpublikasi.
-Generate Situs Statik hugo -b http://os.apps.cs.ipb.ac.id/~$USER/blog Buka laman di atas untuk melihat situs baru anda.'>
+<meta name='description' content='Hugo adalah generator situs web statik. Halamannya ditulis menggunakan format Markdown.
+Inisialisasi Situs Baru # buat situs baru hugo new site blog cd blog # tambahkan tema git init git submodule add https://github.com/MunifTanjim/minimo themes/minimo cp themes/minimo/exampleSite/config.toml . # edit info situs dan penulis editor config.toml Link Akses Publik # symlink ke direktori webroot user ln -s public ~/public_html/blog Tulis Post Baru # buat post baru hugo new posts/first-post.md # edit isinya editor content/posts/first-post.'>
 
 <meta property='og:title' content='Hugo Start • e-Notes'>
-<meta property='og:description' content='Hugo adalah generator situs web statik. Halaman ditulis menggunakan Markdown.
-Inisialisasi Situs Baru hugo new site blog cd blog git init git submodule add https://github.com/MunifTanjim/minimo themes/minimo cp themes/minimo/exampleSite/config.toml . # edit info situs dan penulis editor config.toml Link Akses Publik ln -s public ~/public_html/blog Tulis Post Baru hugo new posts/first-post.md editor content/posts/first-post.md Pastikan header dokumen draft diset false agar terpublikasi.
-Generate Situs Statik hugo -b http://os.apps.cs.ipb.ac.id/~$USER/blog Buka laman di atas untuk melihat situs baru anda.'>
+<meta property='og:description' content='Hugo adalah generator situs web statik. Halamannya ditulis menggunakan format Markdown.
+Inisialisasi Situs Baru # buat situs baru hugo new site blog cd blog # tambahkan tema git init git submodule add https://github.com/MunifTanjim/minimo themes/minimo cp themes/minimo/exampleSite/config.toml . # edit info situs dan penulis editor config.toml Link Akses Publik # symlink ke direktori webroot user ln -s public ~/public_html/blog Tulis Post Baru # buat post baru hugo new posts/first-post.md # edit isinya editor content/posts/first-post.'>
 <meta property='og:url' content='https://auriza.github.io/posts/hugo-start/'>
 <meta property='og:site_name' content='e-Notes'>
 <meta property='og:type' content='article'><meta property='article:section' content='Posts'><meta property='article:tag' content='blog'><meta property='article:tag' content='hugo'><meta property='article:published_time' content='2017-11-14T15:50:00&#43;07:00'/><meta property='article:modified_time' content='2017-11-14T15:50:00&#43;07:00'/><meta name='twitter:card' content='summary'>
@@ -99,30 +97,35 @@ One min read
   <div class='container entry-content'>
   
 
-<p>Hugo adalah generator situs web statik.
-Halaman ditulis menggunakan Markdown.</p>
+<p>Hugo adalah <em>generator</em> situs web statik.
+Halamannya ditulis menggunakan format Markdown.</p>
 
-<h1 id="inisialisasi-situs-baru">Inisialisasi Situs Baru</h1>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">hugo new site blog
+<h2 id="inisialisasi-situs-baru">Inisialisasi Situs Baru</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#75715e"># buat situs baru
+</span><span style="color:#75715e"></span>hugo new site blog
 cd blog
-git init
+<span style="color:#75715e"># tambahkan tema
+</span><span style="color:#75715e"></span>git init
 git submodule add https://github.com/MunifTanjim/minimo themes/minimo
 cp themes/minimo/exampleSite/config.toml .
 <span style="color:#75715e"># edit info situs dan penulis
 </span><span style="color:#75715e"></span>editor config.toml</code></pre></div>
-<h1 id="link-akses-publik">Link Akses Publik</h1>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">ln -s public ~/public_html/blog</code></pre></div>
-<h1 id="tulis-post-baru">Tulis Post Baru</h1>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">hugo new posts/first-post.md
-editor content/posts/first-post.md</code></pre></div>
+<h2 id="link-akses-publik"><em>Link</em> Akses Publik</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#75715e"># symlink ke direktori webroot user
+</span><span style="color:#75715e"></span>ln -s public ~/public_html/blog</code></pre></div>
+<h2 id="tulis-post-baru">Tulis <em>Post</em> Baru</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh"><span style="color:#75715e"># buat post baru
+</span><span style="color:#75715e"></span>hugo new posts/first-post.md
+<span style="color:#75715e"># edit isinya
+</span><span style="color:#75715e"></span>editor content/posts/first-post.md</code></pre></div>
 <p>Pastikan <em>header</em> dokumen <code>draft</code> diset <code>false</code> agar terpublikasi.</p>
 
-<h1 id="generate-situs-statik">Generate Situs Statik</h1>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">hugo -b http://os.apps.cs.ipb.ac.id/~$USER/blog</code></pre></div>
+<h2 id="generate-situs-statik"><em>Generate</em> Situs Statik</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">hugo --baseURL http://os.apps.cs.ipb.ac.id/~$USER/blog</code></pre></div>
 <p>Buka laman di atas untuk melihat situs baru anda.</p>
 
-<p>Setiap kali menambahkan atau mengubah isi post, jalankan perintah <code>hugo</code> di
-atas untuk meng-generate perubahan isi situs.</p>
+<p>Setiap kali menambahkan atau mengubah isi <em>post</em>, jalankan perintah <code>hugo</code> di
+atas untuk meng-<em>generate</em> perubahan isi situs.</p>
 
 </div>
 
@@ -164,6 +167,16 @@ atas untuk meng-generate perubahan isi situs.</p>
 </svg>
  Previous</span>
         <span class='screen-reader-text'>Previous post: </span>Instalasi RStudio Server</a>
+    </div><div class='next-entry sep-before'>
+      <a href='/posts/panduan-software-lab/'>
+        <span class='screen-reader-text'>Next post: </span>Panduan Pemakaian Software Lab<span aria-hidden='true'>Next <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <line x1="4" y1="12" x2="20" y2="12"/>
+  <polyline points="14 6 20 12 14 18"/>
+  
+</svg>
+</span>
+      </a>
     </div></div>
 </nav>
 

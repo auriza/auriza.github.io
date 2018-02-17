@@ -5,10 +5,36 @@
     <link>https://auriza.github.io/</link>
     <description>Recent content on e-Notes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 14 Nov 2017 15:50:00 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 17 Feb 2018 10:56:52 +0700</lastBuildDate>
     
 	<atom:link href="https://auriza.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Setup Pemrograman ASM x86</title>
+      <link>https://auriza.github.io/posts/setup-asm-x86/</link>
+      <pubDate>Sat, 17 Feb 2018 10:56:52 +0700</pubDate>
+      
+      <guid>https://auriza.github.io/posts/setup-asm-x86/</guid>
+      <description>Sistem operasi yang dipakai: Xubuntu atau Ubuntu 16.04 LTS 64-bit.
+Instalasi Instal assembler, compiler, debugger, dan editor.
+sudo apt update sudo apt install yasm sudo apt install gcc-multilib sudo apt install gdb ddd sudo apt install geany Konfigurasi Unduh file filetypes.asm dari GitHub dan salin ke direktori ~/.config/geany/filedefs/. File ini berisi konfigurasi build dan syntax highlight untuk ASM x86. Lalu, gunakan sintaks Intel untuk disassembly.
+wget &amp;#34;https://gist.githubusercontent.com/auriza/9fb537d16388d5f043225b3ec8070acb/raw/46ba23237da7ac1bb02ef2af390e2a50041dc5b4/filetypes.asm&amp;#34; cp filetypes.asm .</description>
+    </item>
+    
+    <item>
+      <title>Panduan Pemakaian Software Lab</title>
+      <link>https://auriza.github.io/posts/panduan-software-lab/</link>
+      <pubDate>Sat, 17 Feb 2018 10:13:01 +0700</pubDate>
+      
+      <guid>https://auriza.github.io/posts/panduan-software-lab/</guid>
+      <description>Panduan ini khusus untuk software yang tidak ada di menu desktop dan memerlukan langkah tambahan untuk menjalankannya.
+PostgreSQL Parameter koneksi database untuk user student adalah sebagai berikut:
+ Username: student Password: student Database: student  User student memiliki izin untuk membuat database baru.
+PostGIS Database student telah ditambahkan ekstensi PostGIS.
+pgAdmin Berikut cara membuat koneksi ke server dengan parameter login di atas.
+ File &amp;ndash;&amp;gt; Add Server&amp;hellip; Isikan parameter berikut:  Name: student Host: localhost Maintenance DB: student Username: student Password: student   Klik ganda Server Groups &amp;ndash;&amp;gt; Servers &amp;ndash;&amp;gt; student   Apache Langkah paling awal adalah membuat direktori web root, yaitu public_html.</description>
+    </item>
     
     <item>
       <title>Hugo Start</title>
@@ -16,9 +42,8 @@
       <pubDate>Tue, 14 Nov 2017 15:50:00 +0700</pubDate>
       
       <guid>https://auriza.github.io/posts/hugo-start/</guid>
-      <description>Hugo adalah generator situs web statik. Halaman ditulis menggunakan Markdown.
-Inisialisasi Situs Baru hugo new site blog cd blog git init git submodule add https://github.com/MunifTanjim/minimo themes/minimo cp themes/minimo/exampleSite/config.toml . # edit info situs dan penulis editor config.toml Link Akses Publik ln -s public ~/public_html/blog Tulis Post Baru hugo new posts/first-post.md editor content/posts/first-post.md Pastikan header dokumen draft diset false agar terpublikasi.
-Generate Situs Statik hugo -b http://os.apps.cs.ipb.ac.id/~$USER/blog Buka laman di atas untuk melihat situs baru anda.</description>
+      <description>Hugo adalah generator situs web statik. Halamannya ditulis menggunakan format Markdown.
+Inisialisasi Situs Baru # buat situs baru hugo new site blog cd blog # tambahkan tema git init git submodule add https://github.com/MunifTanjim/minimo themes/minimo cp themes/minimo/exampleSite/config.toml . # edit info situs dan penulis editor config.toml Link Akses Publik # symlink ke direktori webroot user ln -s public ~/public_html/blog Tulis Post Baru # buat post baru hugo new posts/first-post.md # edit isinya editor content/posts/first-post.</description>
     </item>
     
     <item>

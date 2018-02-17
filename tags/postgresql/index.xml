@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PostgreSQL on e-Notes</title>
+    <link>https://auriza.github.io/tags/postgresql/</link>
+    <description>Recent content in PostgreSQL on e-Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 17 Feb 2018 10:13:01 +0700</lastBuildDate>
+    
+	<atom:link href="https://auriza.github.io/tags/postgresql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Panduan Pemakaian Software Lab</title>
+      <link>https://auriza.github.io/posts/panduan-software-lab/</link>
+      <pubDate>Sat, 17 Feb 2018 10:13:01 +0700</pubDate>
+      
+      <guid>https://auriza.github.io/posts/panduan-software-lab/</guid>
+      <description>Panduan ini khusus untuk software yang tidak ada di menu desktop dan memerlukan langkah tambahan untuk menjalankannya.
+PostgreSQL Parameter koneksi database untuk user student adalah sebagai berikut:
+ Username: student Password: student Database: student  User student memiliki izin untuk membuat database baru.
+PostGIS Database student telah ditambahkan ekstensi PostGIS.
+pgAdmin Berikut cara membuat koneksi ke server dengan parameter login di atas.
+ File &amp;ndash;&amp;gt; Add Server&amp;hellip; Isikan parameter berikut:  Name: student Host: localhost Maintenance DB: student Username: student Password: student   Klik ganda Server Groups &amp;ndash;&amp;gt; Servers &amp;ndash;&amp;gt; student   Apache Langkah paling awal adalah membuat direktori web root, yaitu public_html.</description>
+    </item>
+    
+  </channel>
+</rss>

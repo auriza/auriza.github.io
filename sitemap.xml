@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://auriza.github.io/posts/setup-asm-x86/</loc>
+    <lastmod>2018-02-17T10:56:52+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://auriza.github.io/posts/panduan-software-lab/</loc>
+    <lastmod>2018-02-17T10:13:01+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://auriza.github.io/posts/hugo-start/</loc>
     <lastmod>2017-11-14T15:50:00+07:00</lastmod>
   </url>
@@ -28,6 +38,18 @@
   </url>
   
   <url>
+    <loc>https://auriza.github.io/tags/asm/</loc>
+    <lastmod>2018-02-17T10:56:52+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://auriza.github.io/tags/apache/</loc>
+    <lastmod>2018-02-17T10:13:01+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://auriza.github.io/authors/</loc>
     <priority>0</priority>
   </url>
@@ -40,6 +62,18 @@
   
   <url>
     <loc>https://auriza.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://auriza.github.io/tags/geany/</loc>
+    <lastmod>2018-02-17T10:56:52+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://auriza.github.io/tags/geoserver/</loc>
+    <lastmod>2018-02-17T10:13:01+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -62,6 +96,12 @@
   </url>
   
   <url>
+    <loc>https://auriza.github.io/categories/lab/</loc>
+    <lastmod>2018-02-17T10:56:52+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://auriza.github.io/categories/linux/</loc>
     <lastmod>2017-11-03T08:00:00+07:00</lastmod>
     <priority>0</priority>
@@ -80,8 +120,14 @@
   </url>
   
   <url>
+    <loc>https://auriza.github.io/tags/postgresql/</loc>
+    <lastmod>2018-02-17T10:13:01+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://auriza.github.io/posts/</loc>
-    <lastmod>2017-11-14T15:50:00+07:00</lastmod>
+    <lastmod>2018-02-17T10:56:52+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -111,13 +157,19 @@
   
   <url>
     <loc>https://auriza.github.io/tags/</loc>
-    <lastmod>2017-11-14T15:50:00+07:00</lastmod>
+    <lastmod>2018-02-17T10:56:52+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://auriza.github.io/tags/ubuntu/</loc>
     <lastmod>2017-11-03T08:00:00+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://auriza.github.io/tags/vm/</loc>
+    <lastmod>2018-02-17T10:56:52+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -129,7 +181,7 @@
   
   <url>
     <loc>https://auriza.github.io/</loc>
-    <lastmod>2017-11-14T15:50:00+07:00</lastmod>
+    <lastmod>2018-02-17T10:56:52+07:00</lastmod>
     <priority>0</priority>
   </url>
   

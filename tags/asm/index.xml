@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ASM on e-Notes</title>
+    <link>https://auriza.github.io/tags/asm/</link>
+    <description>Recent content in ASM on e-Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 17 Feb 2018 10:56:52 +0700</lastBuildDate>
+    
+	<atom:link href="https://auriza.github.io/tags/asm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setup Pemrograman ASM x86</title>
+      <link>https://auriza.github.io/posts/setup-asm-x86/</link>
+      <pubDate>Sat, 17 Feb 2018 10:56:52 +0700</pubDate>
+      
+      <guid>https://auriza.github.io/posts/setup-asm-x86/</guid>
+      <description>Sistem operasi yang dipakai: Xubuntu atau Ubuntu 16.04 LTS 64-bit.
+Instalasi Instal assembler, compiler, debugger, dan editor.
+sudo apt update sudo apt install yasm sudo apt install gcc-multilib sudo apt install gdb ddd sudo apt install geany Konfigurasi Unduh file filetypes.asm dari GitHub dan salin ke direktori ~/.config/geany/filedefs/. File ini berisi konfigurasi build dan syntax highlight untuk ASM x86. Lalu, gunakan sintaks Intel untuk disassembly.
+wget &amp;#34;https://gist.githubusercontent.com/auriza/9fb537d16388d5f043225b3ec8070acb/raw/46ba23237da7ac1bb02ef2af390e2a50041dc5b4/filetypes.asm&amp;#34; cp filetypes.asm .</description>
+    </item>
+    
+  </channel>
+</rss>

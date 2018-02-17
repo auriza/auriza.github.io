@@ -16,9 +16,8 @@
       <pubDate>Tue, 14 Nov 2017 15:50:00 +0700</pubDate>
       
       <guid>https://auriza.github.io/posts/hugo-start/</guid>
-      <description>Hugo adalah generator situs web statik. Halaman ditulis menggunakan Markdown.
-Inisialisasi Situs Baru hugo new site blog cd blog git init git submodule add https://github.com/MunifTanjim/minimo themes/minimo cp themes/minimo/exampleSite/config.toml . # edit info situs dan penulis editor config.toml Link Akses Publik ln -s public ~/public_html/blog Tulis Post Baru hugo new posts/first-post.md editor content/posts/first-post.md Pastikan header dokumen draft diset false agar terpublikasi.
-Generate Situs Statik hugo -b http://os.apps.cs.ipb.ac.id/~$USER/blog Buka laman di atas untuk melihat situs baru anda.</description>
+      <description>Hugo adalah generator situs web statik. Halamannya ditulis menggunakan format Markdown.
+Inisialisasi Situs Baru # buat situs baru hugo new site blog cd blog # tambahkan tema git init git submodule add https://github.com/MunifTanjim/minimo themes/minimo cp themes/minimo/exampleSite/config.toml . # edit info situs dan penulis editor config.toml Link Akses Publik # symlink ke direktori webroot user ln -s public ~/public_html/blog Tulis Post Baru # buat post baru hugo new posts/first-post.md # edit isinya editor content/posts/first-post.</description>
     </item>
     
     <item>
